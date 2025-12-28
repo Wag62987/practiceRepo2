@@ -1,0 +1,34 @@
+.Card-container{
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+@media (max-width:950px) {
+    .Card-container{
+      
+     /* background-color: rgb(149, 142, 132); */
+    }
+}
+#skills{
+    padding: 0 40px;
+}
+#contain{
+    display: flex;
+    align-items: center;
+    
+}
+#temp{
+    width: 100vw;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+}
+#temp div{
+    
+}
+#temp :first-child{
+    background-color: aqua;
+    width: 100%;
+}

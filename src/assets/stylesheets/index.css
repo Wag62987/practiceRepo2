@@ -1,0 +1,305 @@
+.title{
+    width: 100%;
+    padding: 2px 3px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: system-ui,Arial,sans-serif;
+}
+.Contain{
+    display: flex;
+    justify-content: center;
+    padding: 8px 1px;
+    
+    flex-direction: column;
+}
+.sec{
+    min-height:300px;
+    min-width: 300px;
+    display: flex;
+    /* flex-wrap: wrap; */
+   
+    justify-content: center;
+      padding: 5px 40px;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    /* padding: 5px 40px; */
+    /* background-color: aqua; */
+
+    }
+#sec-1{
+/* background-color:#ff6fff; */
+}
+#sec-2{
+    width: 50%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+   align-self: center;
+ 
+   /* background-color: red;  */
+
+   
+}
+
+.Welcome-msg,h1{
+    font-family: monospace,serif;
+    font-size: 2.56rem;
+    color:#ffd700;
+}
+.msg-container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 2px 40px;
+}
+.container{
+    min-width:50%;
+    /* background-color: #f3e8ff; */
+    /* margin: 5px 10px; */
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+
+}
+.container p{
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+span{
+    color:#ff6fff;
+}
+ 
+.sec img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffffff33; /* soft border */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3); /* optional shadow */
+    transition:transform 0.7s ease-in-out;
+}
+
+#profile{
+    cursor: pointer;
+}
+#profile:hover{
+    transform: translateY(-10%);
+}
+
+/* doing cards decoration */
+.card{
+    max-height: 500px;
+    min-height: 350px;
+    max-width:250px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* box-shadow: 10px 10px 10px white; */
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    padding: 6px 9px;
+    display: inline-block;
+    margin:4px 8px;
+    text-align: center;
+
+    transition: width 0.5s ease-in-out;
+}
+.card img{
+  height: 80px;
+  width: 50px;
+}
+@media (max-width:950px) {
+    .card img{
+        height: 80px;
+  width: 30px;
+  margin-top: 6px;
+    }
+}
+.card article p{
+    font-size: 1rem;
+    color: black;
+    display: flex;
+    text-align: justify;
+    line-break: anywhere;
+}
+
+
+.project-card{
+    min-height: 200px;
+    max-height: 400px;
+    min-width: 300px;
+    /* max-width: 500px; */
+    padding: 1rem 10px;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.15);
+   
+}
+.title-m{
+    font-size: 1.5rem;
+    border-bottom:  2px solid rgb(203, 203, 203);
+}
+.project-card #description *{
+    color: white;
+}
+#tech-stack{
+    border-top: 2px solid rgb(203, 203, 203);
+    line-height: 0.9rem;
+    
+}
+.project-card p{
+    font-size: 1.1rem;
+    text-align: justify;
+    line-break: anywhere;
+}
+#Project-container{
+    margin-top: 13vh;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2px 20px;
+}
+.project-card  h3 span{
+font-family:'Courier New', Courier, monospace;
+color: rgb(250,215,0);
+}
+
+.about-container{
+    color: white;
+    display: flex;
+    border: 2px  bisque dotted;
+    justify-content: space-between;
+    padding: 1.1rem 2rem;
+    margin: 5vh 0;
+    border-radius: 7px;
+     transition:transform 0.3s ease-in-out;
+    
+}
+
+.about-container h2{
+    color: rgb(250,215,0);
+}
+.about-container h3{
+    /* color: rgb(250,215,0); */
+    font-style: italic;
+}
+.about-container h3 span{
+    font-style: none;
+}
+
+/* Contact */
+.contain{
+    display: flex;
+    flex-direction: column;
+    gap: -10vh;
+     /* background-color: #8a2be2; */
+}
+
+.contact-sec{
+    min-height: 230px;
+    /* border: 2px solid grey; */
+    padding: 0.2vh 2vw;
+    gap: 1.2rem;
+
+}
+.contact-sec h1{
+ color: rgb(250,215,0);
+  border-bottom: 2px solid bisque;
+}
+.img-container{
+    display: flex;
+    gap: 2rem;
+        /* background-color: #f3e8ff; */
+
+
+}
+.social-img{
+    height: 5rem;
+}
+#feedback-sec{
+    height: 50vh;
+    margin-bottom: 2px;
+}
+form{
+     height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+textarea{
+    min-height: 20vh;
+   
+    border:1px solid #8a2be2;
+    border-radius: 7px;
+    background-color: #f3e8ff;
+    padding:10px;
+        /* background-color: #eef3ff; */
+            /* background-color: rgba(255,255,255,0.85);
+            backdrop-filter:blur(6px); */
+            /* background-color: #e6e0f8; */
+     color: #1e1e2f;
+
+
+
+    font-size: 1.2rem;
+}
+#button-con{
+    /* border: 2px solid green; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #1e1e2f;
+}
+#submit-but{
+    min-height: 3rem;
+    width: 100%;
+cursor: pointer;
+    font-size: 1.2rem;
+    border: 3px solid white;
+    color: rgb(250,215,0);
+    font-weight: 600;
+    border-radius: 8px;
+    background:radial-gradient(circle at top left, #8a2be2, #00008b);
+    align-self: flex-end;
+    
+}
+@media (max-width:950px) {
+    .contact-sec h1{
+        font-size: xx-large;
+    }
+    .social-img{
+        height: 4rem;
+    }
+    .img-container{
+     padding: 10px 20px;
+    }
+    textarea{
+        color: rgb(220,220,230);
+        background-color: rgb(55,55,65);
+    }
+    #submit-but{
+        background: none;
+        background-color: rgb(120,180,255);
+        color: rgb(20,20,20);
+        border: none;
+        font-weight: 600;
+        padding: 10px 22px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+}

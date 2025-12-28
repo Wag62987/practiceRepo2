@@ -1,0 +1,94 @@
+
+.slide-container{
+    height: 550px;
+    width:98vw;
+    /* background-color: rgb(160, 206, 246); */
+    margin:35px 0px;
+    display: flex;
+    overflow: hidden;
+    gap: 5px;
+}
+#contain{
+    height: 100%;
+    width: 90%;
+    /* background-color: bisque; */
+    display: inline-flex;
+   gap: 20vw;
+   transform: translateX(0%);
+     display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+       align-items: center;
+    transition: transform 0.4s ease-in-out;
+
+
+
+ 
+}
+
+.content{
+     height: 100%;
+    min-width: 100%;
+    display: flex;
+justify-content: space-between;
+
+}
+.slides{
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 4px 8px;
+    /* background-color: rgb(117, 117, 93); */
+}
+
+
+#contain div{
+   width: 100%;
+   
+}
+
+#arrow-container{
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+}
+#arrow-container button{
+    background-color: transparent;
+   border: none;
+   margin-top: 14vh;
+}
+#arrow{
+    height: 190px;
+  
+filter: invert(1);
+}
+@media (max-width:950px) {
+    #contain{
+        gap: 17vw;
+    }
+    .Card-container{
+        text-align: center;
+        /* padding-left: 1rem; */
+    }
+    .title{
+        margin-top: 8px;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+    }
+    .title h1{
+        font-size:xx-large;
+    }
+    #arrow-container button{
+        margin-top: -52vh;
+        margin-right: 10vw ;
+    }
+    #arrow{
+    max-height: 60px;
+    }
+    
+}
