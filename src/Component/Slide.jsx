@@ -1,5 +1,5 @@
 import Card from './Card'
-import java from '../assets/Images/java.png'
+import java from '../assets/Images/Java.png'
 import Cplus from '../assets/Images/C++.png'
 import js from '../assets/Images/JavaScript.png'
 import spring from '../assets/Images/Springboot.png'
