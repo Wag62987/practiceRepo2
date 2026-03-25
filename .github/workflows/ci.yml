@@ -33,4 +33,4 @@ jobs:
         run: npm run build
       - name: Trigger Hosting Build
         if: success()
-        run: curl -X POST null
+        run: curl -X POST https://api.netlify.com/build_hooks/69c2856644be77a6729694d8
