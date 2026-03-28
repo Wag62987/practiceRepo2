@@ -1,6 +1,6 @@
 import { useEffect, useState,useRef } from 'react';
 import profile from '../assets/Images/profile.jpeg'
-import '../assets/stylesheets/index.css'
+import '../assets/stylesheets\/index.css'
 import "../assets/stylesheets/Responsive.css"
 function Welcome(){
     const WelcomeMsg="Welcome to My Portfolio";
